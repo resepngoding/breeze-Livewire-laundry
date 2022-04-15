@@ -1,0 +1,11 @@
+#Preparation :
+Install Laravel     OK 
+Install Breeze      OK
+Install Livewire    OK
+Register Admin      OK
+----------------------
+#Pages :
+Dashboard
+POS
+Services
+Service Category
