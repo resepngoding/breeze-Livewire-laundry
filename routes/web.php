@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Orders;
 use App\Http\Livewire\Pos;
 use Illuminate\Support\Facades\Route;
 
@@ -24,6 +25,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
     })->name('dashboard');
 
     Route::get('/pos', Pos::class)->name('pos');
+    Route::get('/ordes', Orders::class)->name('orders');
 });
 
 
